@@ -1,0 +1,142 @@
+.navbar {
+    height: 2.0rem;
+    background-color: transparent;
+    align-items: center;
+}
+ 
+
+  .hi{
+    display: flex; 
+    margin-top:1.4rem ;
+    font-size: small;
+    /* padding: 0; */
+  }
+
+  .nav-link{
+  font-size: small;
+  margin-top:0.9rem ;
+  color: blue;
+  /* padding: 0%; */
+  }
+
+  .linki{
+    color: black;
+    padding-right: 10px;
+  }
+
+  hr{
+    position: relative;
+    top: -12px
+  }
+
+  .iconscontainer
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2px;
+
+  }
+
+  .iconscontainer .icons
+  {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:2rem
+  }
+
+  .iconscontainer .icons .bi{
+    cursor: pointer;
+    font-size: 20px;
+    
+  }
+
+    .shopp{
+        color: black;
+        position: relative; 
+        top: 0px;
+        font-size:15px;
+        font-weight: 300;
+        padding-left: 25x;
+        /* padding-right: 5px; */
+      
+    }
+
+    /* the icon kini */
+    .input-group-text{
+        border-radius: 0; 
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-left: 2px solid black;
+        border-right: none;
+        background-color: white;
+    }
+
+    /* the search for anything */
+    .search-input {
+        max-width: 700px;
+        border-radius: 0;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-left: none;
+        font-size:15px;
+        font-weight: 450;
+         height:45px;
+    }
+
+    /* all catergory */
+    .btn-basic{
+        background-color: rgb(255, 255, 255);
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+        border-radius: 0;
+        font-size:12px;
+        font-weight: 400;
+        width: 150px;
+       height:45px;
+       
+    }
+
+     .btn-primary {
+        border-radius: 0;
+        border: none;
+        width: 200px;
+        height: 45px;
+        font-size: 15px;
+        font-weight: 300;
+        padding-right: 10px;
+        padding-left: 20px;
+        margin-right: 35px;
+    }
+
+    /* third nav link */
+    .third{
+        color: #3e3e3e;
+        font-weight: 500;
+    }
+
+    .top-left-caption {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: left;
+}
+
+.custom-outline-primary {
+    color: brown;
+    border-color: brown;
+    border-radius: 0%;
+    width: 150px;
+    height: 3rem;
+  }
+  .custom-outlinee{
+    color: rgb(199, 19, 19);
+    border-color: rgb(199, 19, 19);
+    border-radius: 0%;
+    width: 170px;
+    height: 3rem;
+
+  }
+
