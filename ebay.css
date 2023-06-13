@@ -98,11 +98,11 @@
        height:45px;
        
     }
-
+ /* search button */
      .btn-primary {
         border-radius: 0;
         border: none;
-        width: 200px;
+        width: 220px;
         height: 45px;
         font-size: 15px;
         font-weight: 300;
